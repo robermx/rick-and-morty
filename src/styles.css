@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.btn {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-gray {
+  text-align: center;
+  background-color: darkgray;
+  border-radius: 0.31rem;
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+
+.me-1 {
+  margin-right: 1rem;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  max-width: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 520px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.header {
+  background-color: darkgray;
+  margin: 0;
+  padding: 20px;
+}
+
+.rick {
+  width: 100%;
+  max-width: 15rem;
+}
